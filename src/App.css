@@ -56,6 +56,28 @@ small{
      position: relative;
      top: 0px;
 }
+
+select{
+     position:relative;
+     padding: 1em 0.5em;
+     margin: 1em 0;
+     width: 22.5em;
+     font-size: 1em;
+     background-color: #fff;
+     border: 1px solid #fafafa;
+     outline: none;
+}
+
+select option{
+     border-radius: 0;
+     padding: 1em 0.5em;
+     margin-bottom: 0.5em;
+     background-color: red;
+}
+
+select option:hover{
+     background-color: #fafafa;
+}
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
     .zone{
